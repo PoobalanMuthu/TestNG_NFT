@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118817" started-at="2020-01-13T14:36:03Z" finished-at="2020-01-13T14:38:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="118817" started-at="2020-01-13T14:36:03Z" finished-at="2020-01-13T14:38:02Z">
+      <class name="com.mop.qa.test.regression.Test_NFT_End_to_End_Testing">
+        <test-method status="PASS" signature="executeSuite(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="executeSuite" is-config="true" duration-ms="430" started-at="2020-01-13T20:06:03Z" finished-at="2020-01-13T20:06:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f723cdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSuite -->
+        <test-method status="PASS" signature="startTestReport(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="startTestReport" is-config="true" duration-ms="5367" started-at="2020-01-13T20:06:03Z" finished-at="2020-01-13T20:06:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f723cdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestReport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-01-13T20:06:08Z" finished-at="2020-01-13T20:06:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mop.qa.test.regression.Test_NFT_End_to_End_Testing.Test_NFT_End_to_End_Testing_TestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_NFT_End_to_End_Testing_TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="Test_NFT_End_to_End_Testing_TestCase" duration-ms="112846" started-at="2020-01-13T20:06:08Z" finished-at="2020-01-13T20:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://svt-serviceportal.sdpamp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Srividya.Ramaswamy@team.telstra.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@1243]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Srividya.Ramaswamy@team.telstra.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@1243]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test@1243]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NFT_End_to_End_Testing_TestCase -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-13T20:08:01Z" finished-at="2020-01-13T20:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NFT_End_to_End_Testing_TestCase status=SUCCESS method=Test_NFT_End_to_End_Testing.Test_NFT_End_to_End_Testing_TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.mop.qa.testbase.TestBase.afterMethod(TestBase.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-13T20:08:02Z" finished-at="2020-01-13T20:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="finishExecution()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_End_to_End_Testing@4fcd19b3]" name="finishExecution" is-config="true" duration-ms="0" started-at="2020-01-13T20:08:02Z" finished-at="2020-01-13T20:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishExecution -->
+      </class> <!-- com.mop.qa.test.regression.Test_NFT_End_to_End_Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
